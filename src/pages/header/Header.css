@@ -1,0 +1,47 @@
+/* Header.css */
+
+/* Navbar styling */
+.navbar {
+  padding: 0.5rem 1rem;
+}
+
+.navbar-dark {
+  background-color: #343a40; /* Default dark background */
+}
+
+/* When logged in, background changes */
+.navbar.bg-primary {
+  background-color: #007bff; /* Bootstrap primary color */
+}
+
+/* Branding */
+.navbar-brand {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.navbar-brand:hover {
+  color: #e9ecef;
+}
+
+/* Navigation links */
+.nav-link {
+  color: #ffffff;
+  margin-left: 1rem;
+}
+
+.nav-link:hover {
+  color: #e9ecef;
+}
+
+/* Add responsive padding for mobile */
+@media (max-width: 576px) {
+  .navbar {
+    padding: 0.5rem;
+  }
+
+  .nav-link {
+    margin-left: 0.5rem;
+  }
+}
